@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'about_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -84,20 +85,18 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ), */
             const SizedBox(width: 0, height: 30),
-            /* TODO About page, with contact information
             Container(
               margin: const EdgeInsets.all(15),
               child: ElevatedButton(
-
                 onPressed: () {
-                  // Do something here
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const MyAboutPage(title: 'about',)));
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(15), //apply padding to all four sides
                   child: Text("About"),
                 ),
               ),
-            ), */
+            ),
           ],
         ),
       ),  // Center // This trailing comma makes auto-formatting nicer for build methods.
