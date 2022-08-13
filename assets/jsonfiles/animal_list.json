@@ -1,0 +1,36 @@
+{
+  "Animals" : [
+    {
+      "Animal Name" : "Creature 1",
+      "Latin Name" : "Latin 1:",
+      "Questions":{
+        "Ungulot" : "Yes",
+        "Carnivore" : "Yes"
+      }
+    },
+    {
+      "Animal Name" : "Creature 2",
+      "Latin Name" : "Latin 2:",
+      "Questions" : {
+        "Ungulot" : "No",
+        "Carnivore" : "No"
+      }
+    },
+    {
+      "Animal Name" : "Creature 3",
+      "Latin Name" : "Latin 3:",
+      "Questions" : {
+        "Ungulot" : "No",
+        "Carnivore" : "No"
+      }
+    },
+    {
+      "Animal Name" : "Creature 4",
+      "Latin Name" : "Latin 4:",
+      "Questions" : {
+        "Ungulot" : "No",
+        "Carnivore" : "No"
+      }
+    }
+  ]
+}

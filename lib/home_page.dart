@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'about_page.dart';
+import 'animal_list_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -42,20 +43,20 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text("20 Questions", style: TextStyle(decoration: TextDecoration.underline, fontWeight: FontWeight.bold, fontSize: 40)),
             const Text("North American Mammals", style: TextStyle(height: 2, fontSize: 20)),
             const SizedBox(width: 0, height: 30),
-            /* TODO Display the animal list
+            // Display the animal list
               Container(
               margin: const EdgeInsets.all(15),
               child: ElevatedButton(
 
                 onPressed: () {
-                  // Do something here
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const AnimalListPage(title: 'AnimalListPage')));
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(15), //apply padding to all four sides
                   child: Text("Animal List"),
                 ),
               ),
-            ), */
+            ),
             /* TODO Guess the system's animal
             Container(
               margin: const EdgeInsets.all(15),

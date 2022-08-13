@@ -12,16 +12,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814478fc-164b-4a42-be1d-171abb2afaca" name="Default Changelist" comment="20220807-1043&#10;- Updated packages of the system&#10;- Created the homepage with planned functionality of the system:&#10;-- Animal List&#10;-- Guess the animal&#10;-- Have animal guessed&#10;-- About page">
-      <change afterPath="$PROJECT_DIR$/lib/about_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/homepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    <list default="true" id="814478fc-164b-4a42-be1d-171abb2afaca" name="Default Changelist" comment="20220812-1104&#10;-animal_list.json - temporary list of animals with basic layout&#10;- animal_list_page.dart: page to display the animals listed in the animal_list.json file&#10;- home_page.dart: Updated the homepage to display the button to link to the new page.">
+      <change afterPath="$PROJECT_DIR$/lib/animal_detail_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -30,6 +34,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2D2GkxDeKXt1aiJjDjyVQ4YGCip" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659930435132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20220812-1104&#10;-animal_list.json - temporary list of animals with basic layout&#10;- animal_list_page.dart: page to display the animals listed in the animal_list.json file&#10;- home_page.dart: Updated the homepage to display the button to link to the new page.">
+      <created>1660363564657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660363564657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating files for updated packages." />
     <MESSAGE value="20220807-1043&#10;- Updated packages of the system&#10;- Created the homepage with planned functionality of the system:&#10;-- Animal List&#10;-- Guess the animal&#10;-- Have animal guessed&#10;-- About page" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220807-1043&#10;- Updated packages of the system&#10;- Created the homepage with planned functionality of the system:&#10;-- Animal List&#10;-- Guess the animal&#10;-- Have animal guessed&#10;-- About page" />
+    <MESSAGE value="20220812-1104&#10;-animal_list.json - temporary list of animals with basic layout&#10;- animal_list_page.dart: page to display the animals listed in the animal_list.json file&#10;- home_page.dart: Updated the homepage to display the button to link to the new page." />
+    <option name="LAST_COMMIT_MESSAGE" value="20220812-1104&#10;-animal_list.json - temporary list of animals with basic layout&#10;- animal_list_page.dart: page to display the animals listed in the animal_list.json file&#10;- home_page.dart: Updated the homepage to display the button to link to the new page." />
   </component>
 </project>
