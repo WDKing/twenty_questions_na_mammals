@@ -1,36 +1,34 @@
-{
-  "Animals" : [
+[
     {
-      "Animal Name" : "Creature 1",
-      "Latin Name" : "Latin 1:",
-      "Questions":{
-        "Ungulot" : "Yes",
-        "Carnivore" : "Yes"
+      "animalName" : "Creature 1",
+      "latinName" : "Latin 1",
+      "questions" : {
+        "ungulate" : "No",
+        "carnivore" : "No"
       }
     },
     {
-      "Animal Name" : "Creature 2",
-      "Latin Name" : "Latin 2:",
-      "Questions" : {
-        "Ungulot" : "No",
-        "Carnivore" : "No"
+      "animalName" : "Creature 2",
+      "latinName" : "Latin 2",
+      "questions" : {
+        "ungulate" : "No",
+        "carnivore" : "No"
       }
     },
     {
-      "Animal Name" : "Creature 3",
-      "Latin Name" : "Latin 3:",
-      "Questions" : {
-        "Ungulot" : "No",
-        "Carnivore" : "No"
+      "animalName" : "Creature 3",
+      "latinName" : "Latin 3:",
+      "questions" : {
+        "ungulate" : "No",
+        "carnivore" : "No"
       }
     },
     {
-      "Animal Name" : "Creature 4",
-      "Latin Name" : "Latin 4:",
-      "Questions" : {
-        "Ungulot" : "No",
-        "Carnivore" : "No"
+      "animalName" : "Creature 4",
+      "latinName" : "Latin 4",
+      "questions" : {
+        "ungulate" : "No",
+        "carnivore" : "No"
       }
     }
   ]
-}

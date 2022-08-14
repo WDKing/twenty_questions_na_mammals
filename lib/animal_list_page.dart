@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
-import 'home_page.dart';
+import 'animal_detail_page.dart';
+import 'animal.dart';
 
 class AnimalListPage extends StatefulWidget {
   const AnimalListPage({Key? key, required this.title}) : super(key: key);
@@ -44,19 +45,26 @@ class _AnimalListPageState extends State<AnimalListPage> {
                               InkWell(
                                 onTap: () {
                                   Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (_) => const MyHomePage(title: 'MyHomePage',)));
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => MyAnimalDetailPage( animalData: Animal(jsonAnimalData[index])),
+                                      // Pass the arguments as part of the RouteSettings. The
+                                      // DetailScreen reads the arguments from these settings.
+                                      settings: const RouteSettings(
+                                        //arguments: Animal(jsonAnimalData),
+                                      ),
+                                    ),
+                                  );
                                 },
                                 child: Text(
-                                  jsonAnimalData['Animals'][index]['Animal Name'],
+                                  jsonAnimalData[index]['animalName'],
                                   style: const TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 22),
                                 ),
                               ),
                               Text(
-                                jsonAnimalData['Animals'][index]['Latin Name'],
+                                jsonAnimalData[index]['latinName'],
                                 style: TextStyle(color: Colors.grey.shade600),
                               ),
                             ],
@@ -72,7 +80,7 @@ class _AnimalListPageState extends State<AnimalListPage> {
                     ),
                   );
                 },
-                itemCount: jsonAnimalData == null ? 0 : jsonAnimalData['Animals'].length,
+                itemCount: jsonAnimalData == null ? 0 : jsonAnimalData.length,
               );
             },
           ),
